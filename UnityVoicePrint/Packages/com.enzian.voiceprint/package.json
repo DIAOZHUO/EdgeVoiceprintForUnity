@@ -1,0 +1,20 @@
+{
+  "name": "com.enzian.voiceprint",
+  "version": "1.0.0",
+  "displayName": "Edge Voiceprint for Unity",
+  "description": "Low-latency on-device speaker identification (voiceprint) with Silero VAD + ECAPA-TDNN on ONNX Runtime: tells who is speaking from the microphone and returns each speaker turn's audio. Works offline on Meta Quest (Android), Windows and macOS. Install SileroVADForUnity (https://github.com/DIAOZHUO/SileroVADForUnity.git) first.",
+  "unity": "6000.0",
+  "keywords": ["voiceprint", "speaker recognition", "speaker identification", "diarization", "vad", "onnxruntime", "quest"],
+  "author": { "name": "Enzian" },
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "samples": [
+    {
+      "displayName": "VoicePrint Demo",
+      "description": "Microphone speaker identification demo (uGUI) with three preset speakers and test clips.",
+      "path": "Samples~/VoicePrintDemo"
+    }
+  ]
+}
